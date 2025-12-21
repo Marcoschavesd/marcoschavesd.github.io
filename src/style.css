@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    box-sizing: border-box;
+}
+/*Formatação*/
+body {
+    background-color: #1f2235;
+}
+.container {
+    width: 100vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "header"
+        "about"
+        "knowledge"
+        "contate"
+        "footer";
+}
+header {
+    display: flex;
+    align-items: center;
+    grid-area: header;
+    height: 15vh;
+    font-weight: 600;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    grid-area: footer;
+    height: 15vh;
+    font-weight: 600;
+}
+/******************/
+.nav-desk {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0 auto;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    background-color: #24263b;
+    gap: 12px;
+    grid-area: about;
+}
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40vw;
+    height: 70vh;
+}
+.about-presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 40vh;
+}
+.about-projects {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.about-image {
+    display: flex;
+    justify-content: center;
+    max-width: 40vw;
+    height: 70vh;
+    box-sizing: border-box;
+}
+/*********Knowledge*********/
+.knowledge {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    grid-area: knowledge;
+}
+.knowledge-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.know-card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    min-height: 35vh;
+}
+/*Efeito Flip*/
+.flip-container {
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+}
+.flipper{
+	width: 100%;
+	height: 100%;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+    position: relative;
+}
+.flip-container:hover .flipper{
+	transform: rotateY(180deg);
+}
+.front, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.back {
+    transform: rotateY(180deg);
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ff4a57;
+    border-radius: 12px;
+    background-color: #24263b;
+    padding: 80px;
+}
+/******************/
+.contate{
+    display: flex;
+    justify-content: center;
+    grid-area: contate;
+    background-color: #24263b;
+}
+.form-image{
+    display: flex;
+    justify-content: center;
+    max-width: 30vw;
+}
+.form-image img {
+    width: auto;
+    height: auto;
+    align-items: flex-end;
+    padding: 35px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    min-width: 50vw;
+    border-radius: 12px;
+}
+label {
+    display: block;
+}
+input {
+    padding: 10px;
+    height: 35px;
+    border-radius: 8px;
+    color: #1f2235;
+}
+textarea {
+    padding: 10px;
+    width: 270px;
+    height: 100px;
+    border-radius: 8px;
+    color: #1f2235;
+}
+/*Botão*/
+button {
+    width: 150px;
+    height: 55px;
+    border-radius: 50px;
+    border: 2px solid #ff4a57;
+    background-color: transparent;
+    font-weight: 600;
+}
+.aStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border: 2px solid #ff4a57;
+    border-radius: 50px;
+}
+.aStyle-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border: 2px solid #ff4a57;
+    background-color:#ff4a57;
+    border-radius: 50px;
+}
+/*Navegação e outros*/
+h1, h2 {
+    font-weight: bold;
+    font-size: 62px;
+}
+.nav-desk-items,
+ul {
+    display: flex;
+    gap: 35px;
+    border-radius: 12px;
+}
+.dropmenu {
+    display: block;
+}
+.menu-content{
+    display: none;
+    position: absolute;
+    padding: 10px;
+}
+.menu-content a {
+    font-size: 18px;
+}
+.dropmenu:hover .menu-content {
+    display: flex;
+    flex-direction: column;
+}
+/*Efeitos Hover*/
+button:hover,
+.aStyle:hover,
+.card:hover {
+    background-color: #ff4a57;
+    cursor: pointer;
+}
+nav ul:hover,
+a:hover,
+.menu-content li:hover {
+    color:#ff4a57;
+    cursor: pointer;
+}
+.aStyle-b:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+.nav-mobile {
+    display: none;
+}

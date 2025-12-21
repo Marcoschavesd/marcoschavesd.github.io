@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Pagina</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/styleMobile.css">
+    <script src="https://kit.fontawesome.com/e7141edab5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main class="container">
+        <header>
+            <div class="nav-mobile">
+                <ul class="dropmenu"><i class="fa-solid fa-bars"></i>
+                    <div class="menu-content">
+                        <a href="#sobre">Sobre</a>
+                        <a href="#conhecimento">Conhecimento</a>
+                        <a href="#contato">Contate-me</a>
+                        <ul class="sub-dropmenu">Certificados
+                            <div class="sub-menu-content">
+                                <a href="https://www.linkedin.com/learning/certificates/80cf587562f0e16bcf4287b3bdfe3356653a5900cb99ed984345bf311644644b?trk=share_certificate&li_theme=dark" target="_blank">CSS</a>
+                                <a href="https://www.linkedin.com/learning/certificates/54da6496f4efd6e2c6495f7ac5d4839851c38cdce1dd4a4114f5625c78f3fc2b?li_theme=dark" target="_blank">HTML</a>
+                            </div>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+            <nav class="nav-desk">
+                <i class="fa-solid fa-mug-saucer"></i>
+                <div class="nav-desk-items">
+                    <a href="#sobre">Sobre</a>
+                    <a href="#conhecimento">Conhecimento</a>
+                    <a href="#contato">Contate-me</a>
+                    <ul class="dropmenu" >Certificados
+                        <div class="menu-content" >
+                            <a href="https://www.linkedin.com/learning/certificates/80cf587562f0e16bcf4287b3bdfe3356653a5900cb99ed984345bf311644644b?trk=share_certificate&li_theme=dark" target="_blank">CSS</a>
+                            <a href="https://www.linkedin.com/learning/certificates/54da6496f4efd6e2c6495f7ac5d4839851c38cdce1dd4a4114f5625c78f3fc2b?li_theme=dark" target="_blank">HTML</a>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="about" id="sobre">
+            <div class="about-text">
+                <div class="about-presentation">
+                    <ul>
+                        <a class="aStyle" href="https://www.linkedin.com/in/marcos-chaves-duarte-47098067/">
+                        <i class="fa-brands fa-linkedin-in"></i></a>
+                        <a class="aStyle" href="https://github.com/Marcoschavesd">
+                        <i class="fa-brands fa-github"></i></a>
+                        <a class="aStyle" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a class="aStyle" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </ul>
+                    <h1>Marcos Chaves Duarte</h1>
+                    <p>Eu sou Marcos, analista de suporte com anos de experiência. No momento estou estudando programação com foco no Front-end, fique a vontade em ver meu portlofio e meus projetos no github.</p>
+                </div>
+                <div class="about-projects" >
+                    <button>Projetos</button>
+                    <a class="aStyle-b" href="https://wa.me/5567991039674?text=Ola%20gostaria%20de%20falar%20contigo"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="./src/img/perfil.png" alt="Perfil">
+            </div>
+        </div>
+        <div class="knowledge" id="conhecimento">
+            <div class="knowledge-title">
+                <h2>Conhecimento</h2>
+                <h3>Linguagens e outros</h3>
+            </div>
+            <div class="know-card">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <span class="card">HTML</span>
+                        </div>
+                        <div class="back">
+                            <span class="card">Teste</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <span class="card">CSS</span>
+                        </div>
+                        <div class="back">
+                            <span class="card">Teste</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <span class="card">JavaScript</span>
+                        </div>
+                        <div class="back">
+                            <span class="card">Teste</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <span class="card">SQL</span>
+                        </div>
+                        <div class="back">
+                            <span class="card">Teste</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contate" id="contato">
+            <div class="form-image">
+                <img src="./src/img/form.svg" alt="Ilustração">
+            </div>
+            <div class="form">
+                <h2>Contate-me</h2>
+                <form method="post" autocomplete="off">
+                    <label>Nome</label>
+                    <input type="text" id="name"  placeholder="Digite seu nome">
+                    <label>Email</label>
+                    <input type="email" id="email" placeholder="Digite seu email">
+                    <label>Telefone</label>
+                    <input type="number" id="tel" placeholder="Digite seu telefone">
+                    <label>Assunto</label>
+                    <input type="text" id="assunto" placeholder="Assunto">
+                    <label>Mensagem</label>
+                    <textarea id="mensagem"></textarea>
+                    <button class="aStyle" type="submit"><i class="fa-regular fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <span>Desenvolvido por Marcos C Duarte</span>
+            <ul>
+                <a class="aStyle" href="https://www.linkedin.com/in/marcos-chaves-duarte-47098067/">
+                <i class="fa-brands fa-linkedin-in"></i></a>
+                <a class="aStyle" href="https://github.com/Marcoschavesd">
+                <i class="fa-brands fa-github"></i></a>
+                <a class="aStyle" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a class="aStyle" href="#"><i class="fa-brands fa-instagram"></i></a>
+            </ul>
+        </footer>
+    </main>    
+</body>
+</html>
