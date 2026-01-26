@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Política de Privacidade - Meu Bloquinho</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1, h2 {
+      color: #444;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Política de Privacidade</h1>
+  <p><strong>Última atualização:</strong> 26 de janeiro de 2026</p>
+
+  <h2>Informações coletadas</h2>
+  <p>
+    O aplicativo <strong>Meu Bloquinho</strong> não coleta dados pessoais sensíveis. 
+    Todas as informações inseridas pelo usuário, como blocos, categorias e lembretes, 
+    são armazenadas de forma segura e utilizadas apenas para o funcionamento do aplicativo.
+  </p>
+
+  <h2>Dados coletados por terceiros</h2>
+  <p>
+    Este aplicativo pode utilizar serviços de terceiros, como <strong>Google AdMob</strong> 
+    para exibir anúncios. Esses serviços podem coletar dados como identificadores de dispositivo, 
+    interações com anúncios e informações de uso do app. Para mais detalhes, consulte a 
+    <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidade do Google</a>.
+  </p>
+
+  <h2>Armazenamento e segurança</h2>
+  <p>
+    Os dados do usuário são armazenados em servidores seguros e/ou localmente no dispositivo, 
+    conforme necessário para o funcionamento do aplicativo. Nenhuma informação é compartilhada 
+    com terceiros sem consentimento explícito.
+  </p>
+
+  <h2>Consentimento</h2>
+  <p>
+    Ao utilizar o aplicativo, você concorda com esta política de privacidade e com o uso de 
+    anúncios personalizados fornecidos por serviços de terceiros.
+  </p>
+
+  <h2>Contato</h2>
+  <p>
+    Em caso de dúvidas ou solicitações relacionadas à privacidade, entre em contato pelo e-mail: 
+    <a href="mailto:marcoschaves.dev@gmail.com">marcoschaves.dev@gmail.com</a>.
+  </p>
+
+  <h2>Alterações</h2>
+  <p>
+    Esta política pode ser atualizada periodicamente. Recomendamos revisar esta página regularmente 
+    para estar ciente de quaisquer mudanças.
+  </p>
+
+  <div class="footer">
+    © 2026 Meu Bloquinho. Todos os direitos reservados.
+  </div>
+
+</body>
+</html>
