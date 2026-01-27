@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.marcoschavesd.meubloquinho",
+    "sha256_cert_fingerprints": [
+      "B6:E3:3A:69:56:96:62:2F:80:58:88:F1:DB:3A:C7:32:25:7D:35:45:FA:07:EA:29:9D:FB:0F:00:4E:F8:B7:CE"
+    ]
+  }
+}]
