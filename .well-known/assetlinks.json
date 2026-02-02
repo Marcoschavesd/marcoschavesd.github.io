@@ -1,10 +1,16 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.marcoschavesd.meubloquinho",
-    "sha256_cert_fingerprints": [
-      "21:18:C2:9A:F3:0D:E3:40:5C:74:AF:38:38:95:CD:31:2A:9A:97:DD:D0:FD:18:46:7F:79:A2:DD:67:06:5F:14"
-    ]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.marcoschavesd.meubloquinho",
+      "sha256_cert_fingerprints": [
+        "21:18:C2:9A:F3:0D:E3:40:5C:74:AF:38:38:95:CD:31:2A:9A:97:DD:D0:FD:18:46:7F:79:A2:DD:67:06:5F:14",
+        "71:32:35:C9:75:43:BB:CF:CF:B7:DB:AC:D7:03:C2:FA:8A:F7:67:FC:52:9F:74:A6:61:D4:62:18:A6:F6:7E:D4"
+      ]
+    }
   }
-}]
+]
