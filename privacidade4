@@ -1,0 +1,141 @@
+# Política de Privacidade – Minha Galeria
+
+Última atualização: 29 de maio de 2026
+
+## 1. Introdução
+
+O aplicativo **Minha Galeria** foi desenvolvido para permitir a visualização, organização e gerenciamento de fotos e vídeos armazenados no dispositivo do usuário.
+
+Esta Política de Privacidade descreve quais informações podem ser acessadas pelo aplicativo, como elas são utilizadas e quais são os direitos dos usuários.
+
+Ao utilizar o aplicativo, você concorda com os termos descritos nesta Política de Privacidade.
+
+---
+
+## 2. Informações acessadas pelo aplicativo
+
+O Minha Galeria pode acessar:
+
+* Fotos armazenadas no dispositivo;
+* Vídeos armazenados no dispositivo;
+* Informações básicas dos arquivos, como:
+
+  * Nome;
+  * Data de criação;
+  * Tamanho;
+  * Pasta de origem;
+  * Duração (para vídeos).
+
+Essas informações são necessárias para o funcionamento do aplicativo.
+
+---
+
+## 3. Como as informações são utilizadas
+
+As informações acessadas são utilizadas exclusivamente para:
+
+* Exibir fotos e vídeos;
+* Organizar arquivos por pastas;
+* Criar e gerenciar álbuns personalizados;
+* Exibir miniaturas (thumbnails);
+* Compartilhar arquivos selecionados pelo usuário;
+* Excluir arquivos mediante autorização do usuário.
+
+---
+
+## 4. Coleta de dados pessoais
+
+O aplicativo **não coleta**:
+
+* Nome do usuário;
+* Endereço;
+* CPF;
+* Dados bancários;
+* Senhas;
+* Contatos;
+* Localização;
+* Informações de saúde;
+* Informações biométricas.
+
+---
+
+## 5. Compartilhamento de dados
+
+O Minha Galeria não vende, aluga ou compartilha dados pessoais com terceiros.
+
+As fotos e vídeos permanecem armazenados no dispositivo do usuário e não são enviados para servidores externos.
+
+---
+
+## 6. Armazenamento de dados
+
+As informações utilizadas pelo aplicativo permanecem localmente no dispositivo do usuário.
+
+Os álbuns criados pelo usuário são armazenados localmente utilizando banco de dados interno do aplicativo.
+
+---
+
+## 7. Permissões utilizadas
+
+### Android 13 e superior
+
+O aplicativo pode solicitar:
+
+* READ_MEDIA_IMAGES
+* READ_MEDIA_VIDEO
+
+### Android 12 e versões anteriores
+
+O aplicativo pode solicitar:
+
+* READ_EXTERNAL_STORAGE
+
+Essas permissões são utilizadas exclusivamente para permitir a visualização e gerenciamento das mídias do dispositivo.
+
+---
+
+## 8. Exclusão de dados
+
+O usuário pode remover fotos, vídeos e álbuns diretamente pelo aplicativo.
+
+A exclusão de arquivos do dispositivo depende da confirmação do próprio usuário por meio dos mecanismos de segurança do Android.
+
+---
+
+## 9. Segurança
+
+O Minha Galeria não transmite fotos ou vídeos para servidores externos.
+
+Os dados permanecem sob controle do usuário e armazenados localmente no dispositivo.
+
+---
+
+## 10. Crianças e adolescentes
+
+O aplicativo não é direcionado especificamente para crianças menores de 13 anos e não coleta dados pessoais de crianças.
+
+---
+
+## 11. Alterações nesta política
+
+Esta Política de Privacidade poderá ser atualizada periodicamente para refletir melhorias e alterações no aplicativo.
+
+A data da última atualização será sempre informada no início deste documento.
+
+---
+
+## 12. Contato
+
+Em caso de dúvidas sobre esta Política de Privacidade, entre em contato:
+
+Desenvolvedor: Marcos Duarte
+
+GitHub:
+https://github.com/Marcoschavesd
+
+E-mail:
+[marcoschavesd@outlook.com](mailto:marcoschavesd@outlook.com)
+
+---
+
+© 2026 Minha Galeria. Todos os direitos reservados.
