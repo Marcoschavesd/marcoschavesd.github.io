@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - Minimal Launcher</title>
+    <style>
+        :root {
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-primary: #1f2937;
+            --text-secondary: #4b5563;
+            --accent-color: #2563eb;
+            --border-color: #e5e7eb;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #111827;
+                --card-bg: #1f2937;
+                --text-primary: #f9fafb;
+                --text-secondary: #d1d5db;
+                --accent-color: #3b82f6;
+                --border-color: #374151;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 24px 16px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 32px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid var(--border-color);
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--accent-color);
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+
+        p, li {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 16px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .highlight {
+            background-color: rgba(37, 99, 235, 0.08);
+            border-left: 4px solid var(--accent-color);
+            padding: 12px 16px;
+            margin: 16px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .footer {
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            text-align: center;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Política de Privacidade</h1>
+        <p class="subtitle"><strong>Minimal Launcher</strong> • Última atualização: 31 de Outubro de 2026</p>
+
+        <p>A sua privacidade é extremamente importante para nós. Esta Política de Privacidade descreve como o aplicativo <strong>Minimal Launcher</strong> ("nós", "nosso" ou "aplicativo") coleta, usa, armazena e protege suas informações ao utilizar o aplicativo.</p>
+
+        <div class="highlight">
+            <p><strong>Resumo Principal:</strong> O Minimal Launcher é um aplicativo focado em simplicidade e privacidade. <strong>Não coletamos, vendemos ou armazenamos dados pessoais em servidores externos.</strong> Todos os dados de configuração do aplicativo permanecem estritamente no seu dispositivo.</p>
+        </div>
+
+        <h2>1. Informações que Coletamos e Como são Utilizadas</h2>
+
+        <h3>a) Lista de Aplicativos Instalados</h3>
+        <p>Para funcionar como um launcher de tela inicial, o aplicativo lê a lista de aplicativos instalados no seu dispositivo através do gerenciador do sistema (<code>PackageManager</code>). Essas informações são usadas exclusivamente para exibir a gaveta de aplicativos, permitir o lançamento dos apps e configurar favoritos ou atalhos na barra lateral. Nenhum histórico de apps instalados é transmitido para servidores externos.</p>
+
+        <h3>b) Dados de Localização (Previsão do Tempo)</h3>
+        <p>Se você permitir o acesso à localização (<code>ACCESS_FINE_LOCATION</code> ou <code>ACCESS_COARSE_LOCATION</code>), o aplicativo usará suas coordenadas geográficas (latitude e longitude) exclusivamente para consultar as informações do clima atual na API pública do <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a>. Sua localização aproximada ou exata <strong>não é armazenada</strong> nem rastreada de forma contínua.</p>
+
+        <h3>c) Timer e Estatísticas de Uso de Aplicativos</h3>
+        <p>Se você ativar o recurso de Timer de Utilização de Apps, o aplicativo registrará localmente o tempo de execução dos apps selecionados para alertar quando o limite diário for atingido. Estes dados ficam armazenados de forma criptografada e local no seu dispositivo (via Android DataStore) e não são compartilhados.</p>
+
+        <h3>d) Preferências e Configurações</h3>
+        <p>Suas preferências de personalização (tema claro/escuro, papel de parede, atalhos da barra lateral e lista de favoritos) são salvas localmente no armazenamento do próprio sistema operacional Android do seu dispositivo.</p>
+
+        <h2>2. Permissões do Dispositivo</h2>
+        <p>O Minimal Launcher solicita as seguintes permissões para fornecer seus recursos:</p>
+        <ul>
+            <li><strong>Internet (<code>INTERNET</code>):</strong> Utilizada para buscar dados de previsão do tempo e processar compras dentro do app.</li>
+            <li><strong>Localização (<code>ACCESS_FINE_LOCATION</code> / <code>ACCESS_COARSE_LOCATION</code>):</strong> Utilizada opcionalmente para obter a previsão do tempo local.</li>
+            <li><strong>Administrador do Dispositivo (<code>BIND_DEVICE_ADMIN</code>):</strong> Utilizada opcionalmente para permitir o recurso de bloqueio de tela com toque duplo. Nenhuma outra ação administrativa é executada.</li>
+            <li><strong>Desinstalação de Pacotes (<code>REQUEST_DELETE_PACKAGES</code>):</strong> Permite ao usuário solicitar a desinstalação de aplicativos diretamente pelo menu do launcher.</li>
+        </ul>
+
+        <h2>3. Compras e Assinaturas (Google Play Billing)</h2>
+        <p>O aplicativo utiliza o serviço oficial <strong>Google Play Billing</strong> para processar compras in-app e assinaturas da versão Pro. Não coletamos nem armazenamos suas informações financeiras, dados de cartão de crédito ou endereço de cobrança; todas as transações são gerenciadas com segurança diretamente pelo Google.</p>
+
+        <h2>4. Serviços de Terceiros</h2>
+        <p>O aplicativo pode interagir com os seguintes serviços de terceiros:</p>
+        <ul>
+            <li><strong>Google Play Services:</strong> Para autenticação de compras e gestão da distribuição do aplicativo. Consulte a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a>.</li>
+            <li><strong>Open-Meteo API:</strong> Para requisição de previsão meteorológica. Dados enviados contêm apenas coordenadas geográficas sem identificadores pessoais. Consulte a <a href="https://open-meteo.com/en/features#terms" target="_blank" rel="noopener">Política do Open-Meteo</a>.</li>
+        </ul>
+
+        <h2>5. Armazenamento e Exclusão de Dados</h2>
+        <p>Todos os seus dados de configuração e histórico de timer permanecem no seu dispositivo. Caso você desinstale o aplicativo ou limpe o armazenamento do app através das configurações do Android, todos os dados salvos pelo Minimal Launcher serão permanentemente apagados.</p>
+
+        <h2>6. Privacidade de Crianças</h2>
+        <p>O Minimal Launcher não é direcionado a crianças menores de 13 anos e não coleta intencionalmente qualquer informação de identificação pessoal de crianças.</p>
+
+        <h2>7. Alterações a esta Política de Privacidade</h2>
+        <p>Podemos atualizar nossa Política de Privacidade periodicamente. Recomendamos revisar esta página regularmente para verificar quaisquer alterações. As alterações entram em vigor imediatamente após a publicação.</p>
+
+        <h2>8. Contato</h2>
+        <p>Se você tiver alguma dúvida, sugestão ou preocupação sobre esta Política de Privacidade, entre em contato conosco:</p>
+        <ul>
+            <li><strong>Desenvolvedor:</strong> Marcos Chaves</li>
+            <li><strong>E-mail de suporte:</strong> <a href="mailto:seu-email@dominio.com">seu-email@dominio.com</a> <em>(substitua pelo seu e-mail de suporte da Play Store)</em></li>
+        </ul>
+
+        <div class="footer">
+            <p>&copy; 2026 Minimal Launcher. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</body>
+</html>
